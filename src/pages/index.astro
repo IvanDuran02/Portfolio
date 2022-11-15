@@ -1,11 +1,15 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Hero from '../components/Hero.astro';
+import Footer from '../components/Footer.astro';
 ---
 
 <Layout title="Welcome to Astro.">
-	<main>
-		<Hero /> 
+	<main class="flex justify-center items-center">
+		<div class="max-w-[1440px] min-w-[1440px]">
+		<Hero />
+		<Footer />
+	</div>
 	</main>
 </Layout>
 
