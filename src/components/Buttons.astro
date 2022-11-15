@@ -1,0 +1,13 @@
+---
+export interface Props {
+    text: String;
+}
+
+const { text } = Astro.props;
+---
+
+<div class="p-4">
+    <button class="w-24 h-12 rounded-lg border-2 border-white p-2">
+      {text}  
+    </button>
+</div>
